@@ -1,0 +1,38 @@
+Social Media Sentiment Fixer
+
+
+
+Description:
+
+This Python application uses natural language processing tools to analyze and improve the sentiment of text, specifically designed for social media posts. By integrating the TextBlob and NLTK libraries, it identifies negative sentiments in input text and suggests alternatives with a more positive tone. This tool is especially useful for social media managers and content creators looking to maintain a positive online presence.
+
+Functionality:
+
+Sentiment Analysis: Evaluates the emotional tone of the input text, determining whether it's positive, neutral, or negative.
+Sentiment Improvement: Automatically suggests changes to negative text to make it more positive, utilizing synonyms from the WordNet database.
+
+How to Use:
+
+Start the Program: Run the program. The GUI window will appear.
+Enter Text: Type or paste a social media post or any text into the text input area.
+Analyze Sentiment: Click the "Analyze Sentiment" button to assess the sentiment of the text.
+View Results: The sentiment score and category will be displayed. If the sentiment is negative, a more positive version of the text will be shown.
+Clear Text: Click the "Clear" button to erase the current text and results, allowing you to start a new analysis.
+
+Prerequisites:
+
+Ensure that Python, along with the Tkinter, NLTK, and TextBlob libraries, are installed on your system. NLTK data used by the program (such as 'wordnet', 'averaged_perceptron_tagger', and 'omw-1.4') should be downloaded prior to running the application, as these are necessary for processing the text.
+
+System Requirements:
+
+Python 3.x
+NLTK library with additional data
+TextBlob library
+Tkinter for the GUI
+
+Example Use Case:
+
+A social media manager receives feedback that some of the company's recent tweets come across as slightly negative. Using this tool, they can quickly identify negative phrases and replace them with more positive expressions, ensuring the company maintains a friendly and approachable online presence.
+
+
+Jaime Zamora
